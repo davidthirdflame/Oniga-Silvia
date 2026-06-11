@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Școlar</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family:Arial, sans-serif;
+            background:#f2f2f2;
+        }
+
+        header{
+            background:#2c3e50;
+            color:white;
+            text-align:center;
+            padding:25px;
+        }
+
+        nav{
+            background:#34495e;
+            text-align:center;
+            padding:12px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:10px;
+        }
+
+        section{
+            padding:20px;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            margin-bottom:15px;
+            border-radius:8px;
+        }
+
+        button{
+            background:#3498db;
+            color:white;
+            border:none;
+            padding:10px 15px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#2980b9;
+        }
+
+        footer{
+            background:#2c3e50;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Liceul Meu</h1>
+        <p>Bine ai venit pe site-ul școlii!</p>
+    </header>
+
+    <nav>
+        <a href="#">Acasă</a>
+        <a href="#">Profesori</a>
+        <a href="#">Materii</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+
+        <div class="card">
+            <h2>Despre școală</h2>
+            <p>
+                Școala noastră oferă educație de calitate și activități pentru elevi.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Program</h2>
+            <p>
+                Luni - Vineri: 08:00 - 14:00
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Activități</h2>
+            <p>
+                Concursuri, proiecte și excursii pentru elevi.
+            </p>
+
+            <button onclick="mesaj()">
+                Apasă aici
+            </button>
+        </div>
+
+    </section>
+
+    <footer>
+        © 2026 Site Școlar
+    </footer>
+
+    <script>
+        function mesaj(){
+            alert("Succes la școală!");
+        }
+    </script>
+
+</body>
+</html>
